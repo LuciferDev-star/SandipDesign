@@ -6,7 +6,6 @@ import { HiMenu, HiX } from "react-icons/hi";
 const links = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];

@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import TrustedBy from "@/components/TrustedBy";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import WhyHireMe from "@/components/WhyHireMe";
@@ -15,7 +14,6 @@ export default function Home() {
       <WelcomePopup />
       <Navbar />
       <Hero />
-      <TrustedBy />
       <About />
       <Services />
       <WhyHireMe />

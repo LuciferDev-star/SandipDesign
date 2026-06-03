@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --bg: #0c0c12;
+  --bg-elevated: #14141f;
+  --accent: #f28c4a;
+  --accent-soft: rgba(242, 140, 74, 0.15);
+  --text: #ffffff;
+  --muted: #9ca3af;
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.btn-pill {
+  border-radius: 9999px;
+}
+
+.wavy-bg {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(242, 140, 74, 0.08), transparent),
+    linear-gradient(180deg, #0c0c12 0%, #12121c 50%, #0c0c12 100%);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.float {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.orbit-ring {
+  animation: spin-slow 24s linear infinite;
+}

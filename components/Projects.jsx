@@ -11,7 +11,7 @@ const projects = [
     title: "Student Productivity System",
     category: "UI/UX Design",
     stack: "Figma · User Research · Prototyping",
-    link: "https://www.figma.com/proto/XqYMtYpST3z2ckPTdKRO1G/College?page-id=0%3A1&node-id=284-1325&viewport=-6906%2C-4846%2C0.66&t=YGdpSc8wrLjTEOOw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=284%3A1325",
+    link: "https://www.figma.com/proto/XqYMtYpST3z2ckPTdKRO1G/College?node-id=495-2685&viewport=-1364%2C-1129%2C0.17&t=ZjQZyW0R22opvbUl-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=495%3A2685&show-proto-sidebar=1&page-id=0%3A1",
   },
   {
     title: "Splunk Calculator",
